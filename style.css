@@ -1,3 +1,5 @@
+/* global */
+
 *{
     /* reset */
     margin:0;
@@ -10,4 +12,21 @@ body{
     /* so my eyes do not bleed */
     background-color: grey;
 
+}  
+
+/* classes */
+
+.container{
+
+ /* sizing */
+    block-size:100vh;
+    inline-size:100%; 
+    max-inline-size:600px;
+
+/* m&p */
+    margin-inline:auto;
+    padding-top:50px;
+
+/* background */
+    background-image: linear-gradient(to bottom right, rgb(55, 55, 57), grey);
 }
