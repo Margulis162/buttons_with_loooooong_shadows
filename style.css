@@ -14,6 +14,8 @@ body{
 
 }  
 
+
+
 /* classes */
 
 .container{
@@ -21,7 +23,7 @@ body{
  /* sizing */
     block-size:100vh;
     inline-size:100%; 
-    max-inline-size:600px;
+    max-inline-size:640px;
 
 /* m&p */
     margin-inline:auto;
@@ -29,4 +31,19 @@ body{
 
 /* background */
     background-image: linear-gradient(to bottom right, rgb(55, 55, 57), grey);
+}
+
+.btn{
+ /* sizing    */
+    block-size:200px;
+    inline-size:200px;
+
+/* m&p */
+    margin-inline:5px;
+    margin-block:5px;
+
+/* typo */
+    color:pink;
+    font-size:5rem;
+    
 }
