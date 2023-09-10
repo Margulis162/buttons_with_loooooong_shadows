@@ -1,0 +1,13 @@
+*{
+    /* reset */
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    /* so my eyes do not bleed */
+    background-color: grey;
+
+}
