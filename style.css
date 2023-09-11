@@ -47,3 +47,16 @@ body{
     font-size:5rem;
     
 }
+
+/* ids */
+
+#num{
+    /* sizing */
+    inline-size:580px;
+    block-size:150px;
+    
+    /* m&p */
+    margin-inline-start:30px;
+
+    border: 10px inset pink;
+}
